@@ -7,7 +7,7 @@
 
 bool IsEvenWord(const string word)
 {
-	if (word.length() % 2 != 0)
+	if ((word.length() % 2 != 0) && word.length() != 1)
 		return true;
 	else
 	{
@@ -24,9 +24,10 @@ bool IsSymmetric(const string word)
 		{
 			if (word.at(i) == word.at(word.length() - 1 - i))
 			{
-				cout << "ÁÂ¿ì ´ëÄªÀÎ ´Ü¾î"<<endl;
+				cout << "ÁÂ¿ì ´ëÄªÀÎ ´Ü¾î" << endl;
 				return true;
 			}
+									
 			else
 			{
 				cout << "ÁÂ¿ì ´ëÄªÀÌ ¾Æ´Ñ ´Ü¾î" << endl;
