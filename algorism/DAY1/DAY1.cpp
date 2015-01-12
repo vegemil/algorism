@@ -21,8 +21,14 @@ bool IsSymmetric(const string word)
 	if (IsEvenWord(word))
 	{
 		for (int i = 0; i < word.length(); i++)
-		{
-			if (word.at(i) == word.at(word.length() - 1 - i))
+		{ 
+			if (word.back() - word.front() == 32 && i == 0)
+			{
+				cout << "ÁÂ¿ì ´ëÄªÀÎ ´Ü¾î" << endl;
+				return true;
+			}
+
+			else if (word.at(i) == word.at(word.length() - 1 - i))
 			{
 				cout << "ÁÂ¿ì ´ëÄªÀÎ ´Ü¾î" << endl;
 				return true;
