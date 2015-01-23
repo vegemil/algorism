@@ -34,8 +34,15 @@ int _tmain(int argc, _TCHAR* argv[])
 
 		while (k <= word[i].length())
 		{
+			// 단어의 길이가 1일경우 조건 추가 해야함
+			if (word[i].length() == 1)
+			{
+				k = word[i].length() + 1;
+				shortword += word[i];
+				shortword += word[i].length();
+			}
 
-			 if ((iter + 1) == word[i].end())
+			else if ((iter + 1) == word[i].end())
 			{
 				if (*iter == *(iter - 1))
 					shortword += to_string(temp + 1);
