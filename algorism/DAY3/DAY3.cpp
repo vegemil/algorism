@@ -34,7 +34,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 		while (k <= word[i].length())
 		{
-			// 단어의 길이가 1일경우 조건 추가 해야함
 			if (word[i].length() == 1)
 			{
 				k = word[i].length() + 1;
