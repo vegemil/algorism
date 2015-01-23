@@ -14,8 +14,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	string shortword;
 
 	int  temp = 0;
-	int startindex = 0;
-	int endindex = 0;
+
 	int k = 0;
 
 
@@ -24,16 +23,23 @@ int _tmain(int argc, _TCHAR* argv[])
 		cin >> word[i];
 	}
 
-	for (int i = 0; i < count; ++i)
+	int i = 0;
+
+	while (i <count)
 	{
-		cout << "#testcase" << i + 1 << endl;
+		cout <<endl << "#testcase" << i + 1 << endl;
 
 		cout << word[i] << " " << word[i].length() << endl;
 
 		string::iterator  iter = word[i].begin();
 
+		shortword = "";
+		k = 0;
+		temp = 0;
+
 		while (k <= word[i].length())
 		{
+		
 			if (word[i].length() == 1)
 			{
 				k = word[i].length() + 1;
@@ -95,6 +101,8 @@ int _tmain(int argc, _TCHAR* argv[])
 			cout << word[i] << " " << word[i].length() << endl;
 		else
 			cout << shortword << " " << shortword.length() << endl;
+
+		++i;
 
 	}
 
