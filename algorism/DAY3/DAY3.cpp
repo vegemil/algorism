@@ -20,7 +20,16 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	for (int i = 0; i < count; ++i)
 	{
-		cin >> word[i];
+		string temp;
+		cin >> temp;
+		
+		if (temp.length() >20)
+		{
+			cout << "다시 입력해주세요" << endl;
+			--i;
+		}
+		else
+			word[i] = temp;
 	}
 
 	int i = 0;
