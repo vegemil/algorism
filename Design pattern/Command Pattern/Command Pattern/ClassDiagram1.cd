@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CeilingFan" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAgAAAAAAAAAEAAAAAEAQAAAAAAA=</HashCode>
+      <FileName>CeilingFan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CeilingFanHighCommand" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEAEAAAQAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CeilingFanHighCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CeilingFanOffCommand" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAEAAAAAAAAEAAAAAAAAIAAAAAAAAABAAAA=</HashCode>
+      <FileName>CeilingFanOffCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEBAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GarageDoor" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAACAAAAAAAAAAAAAAAkABAAAAAAAoAAAAA=</HashCode>
+      <FileName>GarageDoor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GarageDoorCloseCommand" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEAAAAQAAAAAAAAIAAAgAAAAA=</HashCode>
+      <FileName>GarageDoorCloseCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GarageDoorOpenCommand" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEAAAAABAAAAIAAIAAAAAAAAA=</HashCode>
+      <FileName>GarageDoorOpenCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Light" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAACAAAAAAgAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightOffCommand" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAQAAEAAAAAAJAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LightOffCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightOnCommnad" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAACAAEAAAAAAIAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>LightOnCommnad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoCommand" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAEAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NoCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoteControl" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAEAABgAAiAAAAAAAAAGAIAQAAAAAAAA=</HashCode>
+      <FileName>RemoteControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleRemoteControl" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAABAAAAAAAAAAQAAAAAAACAAQAAAA=</HashCode>
+      <FileName>SimpleRemoteControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stereo" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAQAAAIA=</HashCode>
+      <FileName>Stereo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StereoOffCommand" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEAgAgAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>StereoOffCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StereoOnCommand" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEQAAAEAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>StereoOnCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
