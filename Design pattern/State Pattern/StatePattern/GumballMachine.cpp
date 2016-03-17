@@ -91,6 +91,6 @@ std::string GumballMachine::toString()
 		out << "s";
 	}
 	out << "\n";
-	out << "Machine is " << m_state << "\n";
+	out << "Machine is " << typeid(*m_state).name() << "\n";
 	return out.str();
 }
